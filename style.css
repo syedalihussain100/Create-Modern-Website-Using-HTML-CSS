@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.site-header {
+  width: 100%;
+  height: 100vh;
+  background: #0f8a9d;
+  background: linear-gradient(57deg, #00c6a7, #1e4d92);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+nav {
+  background: linear-gradient(57deg, #00c6a7, #1e4d92);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0px 30px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  width: 50%;
+  height: 100px;
+}
+
+.logo h1 {
+  line-height: 100px;
+  cursor: pointer;
+  margin: 0px 20px;
+}
+
+section {
+  display: flex;
+  margin: 44px 20px;
+}
+
+.leftside {
+  width: 45%;
+  height: auto;
+  object-fit: contain;
+}
+
+.leftside img {
+  width: 450px;
+  height: 320px;
+  border-radius: 25px;
+  filter: brightness(60%);
+  margin-top: 15%;
+}
+
+.rightside {
+  margin: 80px 20px;
+  text-align: center;
+}
+
+.rightside h1 {
+  user-select: none;
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.rightside p {
+  text-align: justify;
+  padding: 50px;
+  color: #fff;
+  user-select: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.rightside button {
+  outline: none;
+  border: none;
+  padding: 17px 22px;
+  border-radius: 11px;
+  background: linear-gradient(57deg, #00c6a7, #1e4d92);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.rightside button:hover {
+  background: linear-gradient(37deg, #00c6a7, #1e4d92);
+}
+
+/*  */
+.one{
+    padding: 30px;
+    color: crimson;
+}
+
+.one p{
+    text-align: justify;
+    line-height: 50px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb{
+background: linear-gradient(37deg, #00c6a7, #1e4d92);
+border-radius: 20px;
+}
